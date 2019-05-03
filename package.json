@@ -1,0 +1,34 @@
+{
+  "name": "fragrance-technique",
+  "version": "1.0.0",
+  "description": "game data for 'MOBA' webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starwink/fragrance-technique.git"
+  },
+  "keywords": [
+    "egg.js",
+    "node.js"
+  ],
+  "author": "hah620",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starwink/fragrance-technique/issues"
+  },
+  "homepage": "https://github.com/starwink/fragrance-technique#readme",
+  "devDependencies": {
+    "egg-bin": "^4.13.1"
+  },
+  "dependencies": {
+    "cache-manager-ioredis": "^1.0.1",
+    "egg": "^2.22.2",
+    "egg-alinode": "^2.0.1",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0"
+  }
+}
